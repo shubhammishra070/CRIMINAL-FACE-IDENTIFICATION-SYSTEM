@@ -1,0 +1,11 @@
+create table criminaldata(
+id int primary key auto_increment,
+`name` varchar(20) not null,
+`father name` varchar(25),
+`mother name` varchar(25),
+gender varchar(6),
+dob varchar(10),
+`identity mark` varchar(30),
+nationality varchar(15),
+`religion` varchar(15) ,
+`crimes` text not null);
